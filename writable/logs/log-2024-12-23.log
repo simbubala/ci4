@@ -1,0 +1,10 @@
+CRITICAL - 2024-12-23 11:23:52 --> TypeError: json_decode(): Argument #1 ($json) must be of type string, array given
+[Method: GET, Route: Home/index]
+in APPPATH/Controllers/Home.php on line 11.
+ 1 APPPATH/Controllers/Home.php(11): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Home->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
